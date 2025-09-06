@@ -30,7 +30,7 @@ export function Header() {
               </div>
             </div>
             <Button size="lg" className="px-3" asChild>
-              <a href="tel:+62877-8055-7401">Konsultasi Gratis</a>
+              <a href="https://wa.me/6287780557401?text=Halo!%20Saya%20tertarik%20untuk%20konsultasi%20gratis%20asuransi.">Konsultasi Gratis</a>
             </Button>
           </div>
         </div>
