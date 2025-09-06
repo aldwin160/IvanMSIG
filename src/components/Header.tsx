@@ -29,7 +29,7 @@ export function Header() {
                 <span>ivanraha1028@gmail.com</span>
               </div>
             </div>
-            <Button size="lg" asChild>
+            <Button size="lg" className="px-2 h-7" asChild>
               <a href="tel:+62877-8055-7401">Konsultasi Gratis</a>
             </Button>
           </div>
