@@ -21,14 +21,6 @@ import { Slider } from "@/components/ui/slider"
 import { Label } from "@/components/ui/label"
 import * as XLSX from "xlsx";
 
-/* seEffect(() => {
-    (async () => {
-      const res = await fetch("https://example.com/data.xlsx"); // must allow CORS
-      const buf = await res.arrayBuffer();
-      const wb = XLSX.read(buf, { type: "array" });
-      const ws = wb.Sheets[wb.SheetNames[0]];
-      setRows(XLSX.utils.sheet_to_json(ws, { defval: "" }));
-    })(); */
 
 export function Pricelist() {
 
@@ -55,8 +47,10 @@ export function Pricelist() {
             const filteredByGender = allData.slice(2)
             const firstRegex = /^\d+/
             const lastRegex = /\d+$/
-            setData(filteredByGender.filter(row =>
-                Number(row[0]?.match(firstRegex)) <= age && Number(row[0].match(lastRegex)) >= age)); //filter rows based on age range
+            setData(filteredByGender.filter(row => //filter rows based on age range
+                Number(row[0]?.match(firstRegex)) <= age &&
+                Number(row[0].match(lastRegex)) >= age)
+            ); 
         }
 
         const timer = setTimeout(() => {
