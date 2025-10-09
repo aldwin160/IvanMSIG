@@ -1,8 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { Car, ShieldPlus, Heart, Building, Umbrella, TrendingUp } from "lucide-react";
+import { ShieldPlus, Heart, } from "lucide-react";
 
 export function Services() {
   const services = [
