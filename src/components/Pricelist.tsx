@@ -121,8 +121,8 @@ export function Pricelist() {
                   Asia (kecuali SG, HK, JP)
                 </TableHead>
                 <TableHead className="text-center">Asia</TableHead>
-                <TableHead className="text-center">1 Tempat Tidur</TableHead>
-                <TableHead className="text-center">2 Tempat Tidur</TableHead>
+                <TableHead className="text-center">1 Bed</TableHead>
+                <TableHead className="text-center">2 Bed</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
