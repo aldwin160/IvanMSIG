@@ -7,9 +7,9 @@ export function Header() {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center ">
           <div className="flex gap-4">
-            <img src="/ivan-profile.png" className="w-12 m-2 rounded-lg"></img>
+            <img src="/ivan-profile.png" className="hidden md:block w-12 m-2 rounded-lg"></img>
             <div className="flex flex-col justify-center">
-              <h1 className="text-primary">Ivan Raharja</h1>
+              <h2 className="text-primary">Ivan Raharja</h2>
               <span className="text-muted-foreground">
                 MSIG Insurance Partner
               </span>

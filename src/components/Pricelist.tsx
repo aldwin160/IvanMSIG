@@ -94,7 +94,7 @@ export function Pricelist() {
 
           <Table className="w-4/5 border-separate border-4 text-center mx-auto">
             <TableCaption>Tabel Premi Asuransi Kesehatan</TableCaption>
-            <TableHeader className="bg-blue-200">
+            <TableHeader className="bg-blue-300">
               <TableRow className="hover:bg-transparent">
                 <TableHead className="text-center" rowSpan={2}>
                   Usia (tahun)
