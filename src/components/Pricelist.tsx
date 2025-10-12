@@ -88,7 +88,7 @@ export function Pricelist() {
             max={70}
             step={1}
             onValueChange={(v) => setAge(v[0])}
-            className="w-1/4"
+            className="w-1/2 lg:w-1/4"
           />
           <span>{age}</span>
 
